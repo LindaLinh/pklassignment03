@@ -1,0 +1,98 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  border: 5px solid blue;
+}
+
+.item {
+  padding: 10px;
+  flex: 1;
+  border-right: 1px solid black;
+  background-color: #f0f0f0;
+}
+
+.item:last-child {
+  border-right: none;
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.goal {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.goal-icon {
+  margin-right: 10px;
+}
+
+.goal-text {
+  flex: 1;
+}
+
+.team-member {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.team-member-icon {
+  margin-right: 10px;
+}
+
+.team-member-name {
+  flex: 1;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.timeline-item-number {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.timeline-item-text {
+  flex: 1;
+}
+
+.scopes-section {
+  display: flex;
+}
+
+.scopes-section-item {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.primary-question {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.primary-question-icon {
+  margin-right: 10px;
+}
+
+.primary-question-text {
+  flex: 1;
+}

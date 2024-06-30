@@ -1,0 +1,102 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .name {
+    display: none;
+  }
+
+  #target {
+    padding-left: 20px;
+    padding-top: 25px;
+    height: 375px;
+  }
+
+  #personal-info {
+    padding-right: 50px;
+    padding-top: 25px;
+    height: 375px;
+  }
+
+  .job-info {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .WEB {
+    display: block;
+  }
+
+  .JAVA {
+    display: block;
+  }
+
+  .DAT {
+    display: block;
+  }
+
+  .text {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  .project-img {
+    width: 200px;
+    height: 130px;
+  }
+
+  .cv-column {
+    width: 200px;
+  }
+
+  .web-tc-column {
+    width: 200px;
+  }
+
+  .web-tt-column {
+    width: 200px;
+  }
+
+  .da-3 {
+    display: flex;
+    gap: 11px;
+  }
+
+  .da-4 {
+    grid-template-columns: 55px 130px;
+  }
+
+  .da-5 {
+    grid-template-columns: 55px 130px;
+  }
+
+  .da-6 {
+    grid-template-columns: 55px 130px;
+  }
+
+  .da-3-1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .da-2021 {
+    height: 21px;
+    font-size: 10px;
+  }
+
+  .da-3 {
+    padding-left: 10px;
+    padding-bottom: 0px;
+  }
+  .da {
+    display: flex;
+  }
+
+  .iconn {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    gap: 4px;
+  }
+
+  .st {
+    gap: 40px;
+    margin-bottom: 5px;
+  }
+}
